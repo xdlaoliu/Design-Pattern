@@ -7,7 +7,7 @@ import java.util.ArrayList;
  */
 public class Director {
 
-    private ArrayList<String> sequence = new ArrayList<>();
+    private ArrayList<String> sequence = new ArrayList<String>();
     private CarBuilder benzBuilder = new BenzBuilder();
     private CarBuilder bMWBuilder = new BMWBuilder();
 
